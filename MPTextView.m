@@ -47,7 +47,7 @@ static CGFloat const kLabelTopOffsetRetina = 0.5f;
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        _topLabelOffset = kLabelTopOffset;
+        _topLabelOffset = kLabelTopOffsetFromIB;
         [self finishInitialization];
     }
     return self;
